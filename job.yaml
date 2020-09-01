@@ -15,12 +15,7 @@ spec:
       containers:
       - name: post-install-job
         image: "alpine:3.3"
-        command: ["/bin/sleep","21"]
----
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: asd-dododoroo
+        command: ["/bin/sleep","1"]
 ---
 apiVersion: v1
 kind: ServiceAccount

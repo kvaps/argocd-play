@@ -20,5 +20,9 @@ spec:
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  creationTimestamp: null
   name: asd-dododoroo
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: some-name-here

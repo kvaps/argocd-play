@@ -21,3 +21,8 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: some-name-here
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: someres

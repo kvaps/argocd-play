@@ -4,5 +4,6 @@ metadata:
   name: some-qbec-application
 spec:
   environments:
-    default: {}
+    default:
+      server: https://kubernetes.default.svc
   vars: {}
